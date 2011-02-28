@@ -1,15 +1,17 @@
-<div class="error">
-	<h1>Oops, an error occurred!</h1>
-	<p>We couldn't find the page you were looking for.</p>
+<div class="welcome" style="position: relative; top: -100px;">
+	<div class="c">
+		<h1>Welcome to the GAS framework</h1>
+		<p>It's pretty sweet</p>
+	</div>
 </div>
 <script type="text/javascript">
 <!--
 	var welcome = $( '.welcome' );
 	var mid = ( $( window ).height() - welcome.height() ) / 2 + $( window ).scrollTop() + 'px';
 
-	welcome.animate({ 'marginTop': mid }, 300, function() {
-	
-		welcome.effect( 'bounce', { 'times': 3 }, 300 );
+	welcome.animate({ 'top': mid }, function() {
+		
+		$( '.welcome .c' ).effect( 'bounce', { 'times': 3 }, 300 );
 		
 	});
 	
