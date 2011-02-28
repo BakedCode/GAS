@@ -39,4 +39,10 @@ class UTF8 extends \GAS\Controller\Abstraction {
 	
 	}
 	
+	public function auth() {
+		
+		return \GAS\Bootstrap::$session;
+	
+	}
+	
 }
