@@ -10,5 +10,6 @@ If you upload the framework and don't choose to rewrite the URL you can access c
 
 If you choose to rewrite your URL (like we do on our products), simply set the 'application.rewrited' value to true in your index.php configuration and alter the BASEDIR constant appropriately (it's usually set to '/' on our apps).
 
-> Some more information can be found in /Application/Controllers/IndexController.php
-> A full documentation will be available if we decide to actively maintain the open-source release of the framework
+> Some more information can be found in /Application/Controllers/IndexController.php.
+
+> A full documentation/wiki will also be available if we decide to actively maintain the open-source release of the framework
