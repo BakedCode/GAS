@@ -56,7 +56,7 @@ class Front {
 		
 		$this->_defaults		= array(
 		
-			'raw'	=> $defaults,
+			'raw'	=> clone $defaults,
 			'route'	=> $this->_formatRoute( $defaults )
 	
 		);
