@@ -1,8 +1,8 @@
 div.error {
 	text-align: center;
-	margin-top: 40%;
+	margin-top: 20%;
 }
 	
-	div.welcome p {
+	div.error p {
 		margin: 10px;
 	}
