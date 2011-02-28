@@ -1,0 +1,121 @@
+
+
+/*  --- --- --- --- --- --- --- --- --- --- ---  */
+/*  --- --- ---        RESET        --- --- ---  */
+/*  --- --- --- --- --- --- --- --- --- --- ---  */
+
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	font-family: "Helvetica Neue", Helvetica, Arial, Tahoma, Verdana, san-serif;
+	font-size: inherit;
+	font-style: inherit;
+	font-weight: inherit;
+	border: 0;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+	}
+
+:focus {
+	/* DEFINE FOCUS STYLES */
+	outline: 0;
+	}
+	
+html, body {
+	color: #666666;
+	display: block;
+	line-height: 1;
+	}
+	
+ol, ul {
+	list-style: none;
+	}
+	
+table {
+	/* 'cellspacing="0"' REQUIRED */
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+	
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+	
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+	
+blockquote, q {
+	quotes: "" "";
+	}
+	
+input[type="text"], input[type="password"], select, textarea {
+	background: transparent;
+	border: 0;
+	font-family: inherit;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+	}
+	
+input[type="checkbox"] {
+	margin: 0;
+	}
+	
+a, a:visited {
+	color: #357fb2;
+	font-weight: bold;
+	text-decoration: none;
+	}
+	
+a:hover {
+	text-decoration: underline;
+	}
+	
+h1, h2, h3, h4, h5, h6 {
+	color: #333333;
+	font-weight: bold;
+	}
+	
+h1 {
+	font-size: 20px;
+	}
+	
+h2 {
+	font-size: 18px;
+	}
+	
+h3 {
+	font-size: 16px;
+	}
+	
+h4 {
+	font-size: 15px;
+	}
+	
+h5 {
+	font-size: 14px;
+	}
+	
+h6 {
+	font-size: 13px;
+	}
+	
+h1 a, h1 a:visited, h2 a, h2 a:visited, h3 a, h3 a:visited, h4 a, h4 a:visited, h5 a, h5 a:visited, h6 a, h6 a:visited {
+	color: #333333;
+	}
+	
+p {
+	font-size: 12px;
+	line-height: 1.2em;
+	}
+	
+p.subline {
+	padding: 4px 0 8px;
+	}
+	
+strong {
+	font-weight: bold;
+	}
