@@ -47,7 +47,7 @@ class UTF8 extends \GAS\Controller\Abstraction {
 	
 	public function findAfter( $before ) {
 	
-		$explode = \SFramework\Router::getUriParts( false );
+		$explode = \GAS\Router::getUriParts( false );
 
 		foreach( $explode as $key => $value ) {
 		
