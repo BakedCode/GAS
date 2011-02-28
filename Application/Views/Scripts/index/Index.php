@@ -1,6 +1,6 @@
-<div class="welcome" style="margin-top: -10%;">
-	<h1>Welcome to the GAS framework</h1>
-	<p>It's pretty sweet.</p>
+<div class="error">
+	<h1>Oops, an error occurred!</h1>
+	<p>We couldn't find the page you were looking for.</p>
 </div>
 <script type="text/javascript">
 <!--
