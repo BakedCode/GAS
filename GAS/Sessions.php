@@ -8,7 +8,7 @@ abstract class Sessions {
 	
 		if( headers_sent() !== true && ( isset( $_SESSION ) !== true || is_array( $_SESSION ) !== true ) ) {
 			
-			//session_start();
+			session_start();
 		
 		}
 		
