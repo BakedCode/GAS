@@ -54,8 +54,13 @@ class Front {
 		$defaults->controller	= $controller;
 		$defaults->action		= $action;
 		
-		$this->_defaults		= $this->_formatRoute( $defaults );
+		$this->_defaults		= array(
+		
+			'raw'	=> $defaults,
+			'route'	=> $this->_formatRoute( $defaults )
 	
+		);
+		
 	}
 	
 	public function setAjaxSuffix( $suffix ) {
@@ -111,15 +116,12 @@ class Front {
 		
 		\GAS\Registry::getInstance()->controller = strtolower( $viewRoute->controller );
 		
-		$controller			= new $route->controller();
-		
-		/**
-		 * change for interstate only
-		 */
+		$controller = new $route->controller();
+
 		if( method_exists( $controller, $route->action ) !== true ) {
 			
-			$route->action		= 'IndexAction';
-			$viewRoute->action	= 'Index';
+			$route->action		= $this->_defaults[ 'route' ]->action;
+			$viewRoute->action	= $this->_defaults[ 'raw' ]->action;
 								
 		}
 		
